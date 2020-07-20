@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3440D73E24C63F0C00FB7726 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440D73D24C63F0C00FB7726 /* AppDelegate.swift */; };
+		3440D74024C63F0C00FB7726 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440D73F24C63F0C00FB7726 /* SceneDelegate.swift */; };
+		3440D74224C63F0C00FB7726 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440D74124C63F0C00FB7726 /* ContentView.swift */; };
+		3440D74424C63F0E00FB7726 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3440D74324C63F0E00FB7726 /* Assets.xcassets */; };
+		3440D74724C63F0E00FB7726 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3440D74624C63F0E00FB7726 /* Preview Assets.xcassets */; };
+		3440D74A24C63F0E00FB7726 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3440D74824C63F0E00FB7726 /* LaunchScreen.storyboard */; };
+		3440D75524C63F0F00FB7726 /* OrthokeysUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440D75424C63F0F00FB7726 /* OrthokeysUITests.swift */; };
+		3440D76624C63F3C00FB7726 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3440D76524C63F3C00FB7726 /* KeyboardViewController.swift */; };
+		3440D76A24C63F3C00FB7726 /* QWERTY.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 3440D76324C63F3C00FB7726 /* QWERTY.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3440D75124C63F0F00FB7726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3440D73224C63F0C00FB7726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3440D73924C63F0C00FB7726;
+			remoteInfo = Orthokeys;
+		};
+		3440D76824C63F3C00FB7726 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3440D73224C63F0C00FB7726 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3440D76224C63F3C00FB7726;
+			remoteInfo = QWERTY;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3440D76E24C63F3C00FB7726 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				3440D76A24C63F3C00FB7726 /* QWERTY.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3440D73A24C63F0C00FB7726 /* Orthokeys.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Orthokeys.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440D73D24C63F0C00FB7726 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3440D73F24C63F0C00FB7726 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3440D74124C63F0C00FB7726 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3440D74324C63F0E00FB7726 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3440D74624C63F0E00FB7726 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3440D74924C63F0E00FB7726 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3440D74B24C63F0E00FB7726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3440D75024C63F0F00FB7726 /* OrthokeysUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OrthokeysUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440D75424C63F0F00FB7726 /* OrthokeysUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrthokeysUITests.swift; sourceTree = "<group>"; };
+		3440D75624C63F0F00FB7726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3440D76324C63F3C00FB7726 /* QWERTY.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = QWERTY.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		3440D76524C63F3C00FB7726 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		3440D76724C63F3C00FB7726 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3440D73724C63F0C00FB7726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D74D24C63F0F00FB7726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D76024C63F3C00FB7726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3440D73124C63F0C00FB7726 = {
+			isa = PBXGroup;
+			children = (
+				3440D73C24C63F0C00FB7726 /* Orthokeys */,
+				3440D75324C63F0F00FB7726 /* OrthokeysUITests */,
+				3440D76424C63F3C00FB7726 /* QWERTY */,
+				3440D73B24C63F0C00FB7726 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3440D73B24C63F0C00FB7726 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3440D73A24C63F0C00FB7726 /* Orthokeys.app */,
+				3440D75024C63F0F00FB7726 /* OrthokeysUITests.xctest */,
+				3440D76324C63F3C00FB7726 /* QWERTY.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3440D73C24C63F0C00FB7726 /* Orthokeys */ = {
+			isa = PBXGroup;
+			children = (
+				3440D73D24C63F0C00FB7726 /* AppDelegate.swift */,
+				3440D73F24C63F0C00FB7726 /* SceneDelegate.swift */,
+				3440D74124C63F0C00FB7726 /* ContentView.swift */,
+				3440D74324C63F0E00FB7726 /* Assets.xcassets */,
+				3440D74824C63F0E00FB7726 /* LaunchScreen.storyboard */,
+				3440D74B24C63F0E00FB7726 /* Info.plist */,
+				3440D74524C63F0E00FB7726 /* Preview Content */,
+			);
+			path = Orthokeys;
+			sourceTree = "<group>";
+		};
+		3440D74524C63F0E00FB7726 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				3440D74624C63F0E00FB7726 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		3440D75324C63F0F00FB7726 /* OrthokeysUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3440D75424C63F0F00FB7726 /* OrthokeysUITests.swift */,
+				3440D75624C63F0F00FB7726 /* Info.plist */,
+			);
+			path = OrthokeysUITests;
+			sourceTree = "<group>";
+		};
+		3440D76424C63F3C00FB7726 /* QWERTY */ = {
+			isa = PBXGroup;
+			children = (
+				3440D76524C63F3C00FB7726 /* KeyboardViewController.swift */,
+				3440D76724C63F3C00FB7726 /* Info.plist */,
+			);
+			path = QWERTY;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3440D73924C63F0C00FB7726 /* Orthokeys */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3440D75924C63F0F00FB7726 /* Build configuration list for PBXNativeTarget "Orthokeys" */;
+			buildPhases = (
+				3440D73624C63F0C00FB7726 /* Sources */,
+				3440D73724C63F0C00FB7726 /* Frameworks */,
+				3440D73824C63F0C00FB7726 /* Resources */,
+				3440D76E24C63F3C00FB7726 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3440D76924C63F3C00FB7726 /* PBXTargetDependency */,
+			);
+			name = Orthokeys;
+			productName = Orthokeys;
+			productReference = 3440D73A24C63F0C00FB7726 /* Orthokeys.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3440D74F24C63F0F00FB7726 /* OrthokeysUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3440D75C24C63F0F00FB7726 /* Build configuration list for PBXNativeTarget "OrthokeysUITests" */;
+			buildPhases = (
+				3440D74C24C63F0F00FB7726 /* Sources */,
+				3440D74D24C63F0F00FB7726 /* Frameworks */,
+				3440D74E24C63F0F00FB7726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3440D75224C63F0F00FB7726 /* PBXTargetDependency */,
+			);
+			name = OrthokeysUITests;
+			productName = OrthokeysUITests;
+			productReference = 3440D75024C63F0F00FB7726 /* OrthokeysUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		3440D76224C63F3C00FB7726 /* QWERTY */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3440D76B24C63F3C00FB7726 /* Build configuration list for PBXNativeTarget "QWERTY" */;
+			buildPhases = (
+				3440D75F24C63F3C00FB7726 /* Sources */,
+				3440D76024C63F3C00FB7726 /* Frameworks */,
+				3440D76124C63F3C00FB7726 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QWERTY;
+			productName = QWERTY;
+			productReference = 3440D76324C63F3C00FB7726 /* QWERTY.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3440D73224C63F0C00FB7726 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Zach Laborde";
+				TargetAttributes = {
+					3440D73924C63F0C00FB7726 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					3440D74F24C63F0F00FB7726 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 3440D73924C63F0C00FB7726;
+					};
+					3440D76224C63F3C00FB7726 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 3440D73524C63F0C00FB7726 /* Build configuration list for PBXProject "Orthokeys" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3440D73124C63F0C00FB7726;
+			productRefGroup = 3440D73B24C63F0C00FB7726 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3440D73924C63F0C00FB7726 /* Orthokeys */,
+				3440D74F24C63F0F00FB7726 /* OrthokeysUITests */,
+				3440D76224C63F3C00FB7726 /* QWERTY */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3440D73824C63F0C00FB7726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3440D74A24C63F0E00FB7726 /* LaunchScreen.storyboard in Resources */,
+				3440D74724C63F0E00FB7726 /* Preview Assets.xcassets in Resources */,
+				3440D74424C63F0E00FB7726 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D74E24C63F0F00FB7726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D76124C63F3C00FB7726 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3440D73624C63F0C00FB7726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3440D73E24C63F0C00FB7726 /* AppDelegate.swift in Sources */,
+				3440D74024C63F0C00FB7726 /* SceneDelegate.swift in Sources */,
+				3440D74224C63F0C00FB7726 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D74C24C63F0F00FB7726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3440D75524C63F0F00FB7726 /* OrthokeysUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3440D75F24C63F3C00FB7726 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3440D76624C63F3C00FB7726 /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3440D75224C63F0F00FB7726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3440D73924C63F0C00FB7726 /* Orthokeys */;
+			targetProxy = 3440D75124C63F0F00FB7726 /* PBXContainerItemProxy */;
+		};
+		3440D76924C63F3C00FB7726 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3440D76224C63F3C00FB7726 /* QWERTY */;
+			targetProxy = 3440D76824C63F3C00FB7726 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3440D74824C63F0E00FB7726 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3440D74924C63F0E00FB7726 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3440D75724C63F0F00FB7726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3440D75824C63F0F00FB7726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3440D75A24C63F0F00FB7726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orthokeys/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orthokeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.Orthokeys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3440D75B24C63F0F00FB7726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Orthokeys/Preview Content\"";
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Orthokeys/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.Orthokeys";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3440D75D24C63F0F00FB7726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				INFOPLIST_FILE = OrthokeysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.OrthokeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orthokeys;
+			};
+			name = Debug;
+		};
+		3440D75E24C63F0F00FB7726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				INFOPLIST_FILE = OrthokeysUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.OrthokeysUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Orthokeys;
+			};
+			name = Release;
+		};
+		3440D76C24C63F3C00FB7726 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				INFOPLIST_FILE = QWERTY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.Orthokeys.QWERTY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3440D76D24C63F3C00FB7726 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9V7MD7V335;
+				INFOPLIST_FILE = QWERTY/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Zach-Attach.Orthokeys.QWERTY";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3440D73524C63F0C00FB7726 /* Build configuration list for PBXProject "Orthokeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3440D75724C63F0F00FB7726 /* Debug */,
+				3440D75824C63F0F00FB7726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3440D75924C63F0F00FB7726 /* Build configuration list for PBXNativeTarget "Orthokeys" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3440D75A24C63F0F00FB7726 /* Debug */,
+				3440D75B24C63F0F00FB7726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3440D75C24C63F0F00FB7726 /* Build configuration list for PBXNativeTarget "OrthokeysUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3440D75D24C63F0F00FB7726 /* Debug */,
+				3440D75E24C63F0F00FB7726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3440D76B24C63F3C00FB7726 /* Build configuration list for PBXNativeTarget "QWERTY" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3440D76C24C63F3C00FB7726 /* Debug */,
+				3440D76D24C63F3C00FB7726 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3440D73224C63F0C00FB7726 /* Project object */;
+}
